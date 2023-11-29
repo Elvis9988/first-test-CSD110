@@ -35,6 +35,7 @@ def problemsolving(day, month, year):
                     print ("Sucess: Congratulations! You entered a correct date.")
     
         else:
+            print ("The date is:", month, "/", day, "/", year)
             print ("Sucess: Congratulations! You entered a correct date.")
     
     
