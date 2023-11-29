@@ -12,7 +12,7 @@ if color1 == RED or color1 == BLUE or color1 == YELLOW:
     print()
 else:
         print ("Error: Invalid Color 1")
-if color2 == RED or color2 == BLUE or color2 == YELLOW:
+if color2 == RED or color2.lower == BLUE or color2 == YELLOW:
     print()
 else:
         print ("Error: Invalid Color 2")
