@@ -4,18 +4,18 @@ BLUE = "blue"
 YELLOW = "yellow"
 
 # taking user inputs
-color1 = input("Enter first color: (Enter in lowercase) ")
-color2 = input("Enter second color: (Enter in lowercase) ")
+color1 = (input("Enter first color: (Enter in lowercase) ")).lower()
+color2 = (input("Enter second color: (Enter in lowercase) ")).lower()
 
 # using if and if elif 
 if color1 == RED or color1 == BLUE or color1 == YELLOW:
     print()
 else:
-        print ("Error: Invalid Color 1")
-if color2 == RED or color2.lower == BLUE or color2 == YELLOW:
+    print ("Error: Invalid Color 1")
+if color2 == RED or color2 == BLUE or color2 == YELLOW:
     print()
 else:
-        print ("Error: Invalid Color 2")
+    print ("Error: Invalid Color 2")
 if color1 == color2:
     print ("The two colors you entered are the same")
         
